@@ -1,0 +1,140 @@
+@charset "UTF-8";
+/* CSS Document */
+
+* {margin:0px; padding:0px;}
+
+/*style de las botoneras*/
+
+
+#cajasFlia { width:200px; height:450px; float:left; padding:8px; border:solid 2px #2a94cf;  border-radius:5px; margin-right:5px;}  
+
+#fliafoto { width:200px; float:left; }  
+
+#fliaproductosDescrip { width:200px; float:left; }  
+
+.Titfliaproductos { 
+	/*width:200px; */
+	/*height:33px; */
+	float:left; 
+	background-image:url(imagenes/actualizaciones2017/BaseTitProd.jpg);
+	background-size: cover;
+	color:#FFF !important; 
+	font-size:12px; 
+	text-align:center; 
+	/*padding-top:8px; */
+}  
+
+.Titfliaproductos a { 
+	text-decoration:none; 
+	color:#FFF; 
+}
+.Titfliaproductos a:hover  { 
+	text-decoration:underline; 
+	color:#FFF; 
+}
+
+
+
+.brevedescripcion { float:left; width:160px; padding:10px 0 0 20px;  margin-left:5px; font-size:13px;}
+
+.flia { float:left; width:220px;}
+
+.flia a { width:220px;
+	height:30px;
+	list-style-type:none;
+	float:left;
+	text-align:center;
+	background-image:url(imagenes/hable.jpg);
+	background-repeat:no-repeat;
+	padding-top:15px; color:#2a94cf;}	
+
+	.flia a:hover { width:220px;
+		height:30px; float:left;
+		text-align:center; background-image:url(imagenes/hableover.jpg); background-repeat:no-repeat;
+		color:#2a94cf;
+		font-weight:bold;
+		text-decoration:none}
+
+		#fliaon a { float:left; width:220px; height:40px; padding-top:10px;
+			font-weight:bold; text-align:center; background-image:url(imagenes/hableover.jpg); background-repeat:no-repeat;
+			text-decoration:none; }
+
+			#infoprods {  float:left; }
+
+			.lineaprod1 { height:25px; float:left;  font-size:16px; color:#666; text-decoration:underline;  }
+
+			#fondocolor1 { float:left; border: solid 2px #FAEBD7; margin-bottom:5px; border-radius:5px; padding:10px 0px 10px 10px;}
+
+			#fondocolor2 { float:left; border: solid 2px #FFE4E1;   margin-bottom:5px;  border-radius: 5px; padding:10px 0px 10px 10px;}
+			#lineacolor2 { float:left; border: solid 2px #FFE4E1;   margin-bottom:0px; }
+
+			#fondocolor3 { float:left; border: solid 2px #ADD8E6;  margin-bottom:5px;  border-radius: 5px; padding:10px 0px 10px 10px;}
+			#fondocolor4 {float:left;  border: solid 2px #AFEEEE;   margin-bottom:5px;  border-radius: 5px; padding:10px 0px 10px 10px;}
+			#fondocolor5 {float:left;  border: solid 2px #FFC;   margin-bottom:5px;  border-radius: 5px; padding:10px 0px 10px 10px;}
+
+			#titularfamilia { width:400px; height:30px; float:left; }
+			.brevedescrip { width:100%; float:left; }
+			.brevedescripCC {
+				
+				float:left; 
+			}
+			.brevedescripFoto { float:left; width:160px; }
+			.brevedescripFotoCC { float:left; width:40%; }
+			.brevedescripTit { 
+				width:60%; 
+				height:30px; float:left; color:#2a94cf; font-size:14px; 
+				padding:10px 0 0 20px; 
+				margin-bottom:5px; }
+			#brevedescripBoton { width:120px; height:22px; float:left; background-color:#2a94cf; text-align:center; color:#FFF; padding-top:8px;}
+			#brevedescripBoton a { text-decoration:none; color:#FFF;}
+			#brevedescripBoton a:hover  { text-decoration:underline; color:#FFF;}
+
+			#brevedescripBotonCC { width:160px; height:22px; float:left; background-color:#2a94cf; text-align:center; color:#FFF; padding-top:8px;}
+			#brevedescripBotonCC a { text-decoration:none; color:#FFF;}
+			#brevedescripBotonCC a:hover  { text-decoration:underline; color:#FFF;}
+
+
+			#infoproductossemielemental { width:550px; padding-top:15px; height:280px; float:left; line-height:20px;}
+
+			.infoproductosvarios { 
+				padding-top:15px; height:100%; float:left; line-height:20px;}
+
+
+			#infoproductosmedium { width:650px; padding-top:15px; height:300px; float:left; line-height:20px;}
+
+			#infoproductos2017 { width:340px; height:600px; float:left; font-size:14px; }
+			#tablas2017 { font-size:11px; width:540px;  float:left;  padding-top:10px;}
+
+			#infoproductos2017ch { width:340px; height:580px; float:left; font-size:14px; }
+			#tablas2017 { font-size:11px; width:540px;  float:left;  padding-top:10px;}
+
+			.bordesolidonaranja { width: 100%; margin:5px; padding:10px; border:solid 2px #FF9900;  border-radius:5px; }
+			.bordesolidoceleste { width: 100%; margin:5px; padding:10px; border:solid 2px #0CF;  border-radius:5px; }
+			.bordesolidoverde {width: 100%;   margin:5px; padding:10px; border:solid 2px #009966;  border-radius:5px; }
+			.bordesolidoverdemanz {width: 100%;   margin:5px; padding:10px; border:solid 2px #66CC00;  border-radius:5px; }
+			.bordesolidovioleta {width: 100%;  margin:5px; padding:10px; border:solid 2px #6600CC;  border-radius:5px; }
+			.bordesolidorosa {width: 100%; margin:5px; padding:10px; border:solid 2px #FF99FF;  border-radius:5px; }
+			.bordesolidoazul {width: 100%;  margin:5px; padding:10px; border:solid 2px #0066FF;  border-radius:5px; }
+
+			.bordesolidorojo {width: 100%;  height:100%; margin:5px; padding:10px; border:solid 2px #F00;  border-radius:5px; display: inline-block;}
+
+			.bordesolidorojo2 {width: 100%; height:100%; margin:5px; padding:10px; border:solid 2px #F00;  border-radius:5px; }
+
+			#sintacc { width:48px; height:55px; margin-left:240px; margin-bottom:-50px; margin-top:-30px; background-image:url(imagenes/actualizaciones2017/SinTacc.png); }
+
+
+			#tablachica { float:left; width:880px; margin:5px;}
+
+			.tablachic {border:solid 2px #2a94cf;  border-radius:5px; font-size:12px; }
+
+			#preparalata { float:left; width:550px; height:130px;}
+			#preparalataimg { float:left; width:300px; padding:15px; height:100px;}
+			#preparacontenedor{ float:left; width:550px;}
+
+			#grilla-chica-junior { float:left; width:870px; padding-top:10px; }
+
+			/*#advertencias { float:left; width:870px; padding-top:10px;}*/
+
+
+
+

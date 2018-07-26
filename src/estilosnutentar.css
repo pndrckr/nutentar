@@ -1,0 +1,116 @@
+@charset "UTF-8";
+/* CSS Document */
+
+* {margin:0px; padding:0px;}
+
+body { font-family:Arial, Helvetica, sans-serif;
+	color:#666; font-size:14px; }
+
+	/*#web { margin:auto; }*/
+
+	/*#head3 { float:left; width:100%; height:100%; background-image:url(imagenes/head-op2.jpg); margin-bottom:15px;}*/
+
+	/*#main { float:left; width:1100px;}*/
+
+	/*#info { float:left; padding-left:10px; }*/
+	/*#infoprod { width:880px; float:left; padding-left:10px; line-height:20px;  }*/
+
+
+	/*#infohome { width:830px; float:left; padding-left:10px; line-height:20px; text-align:justify;  }*/
+
+	#infolegal {
+		/*width:1090px; */
+		/*float:left; */
+		padding:0 20px 0 20px; 
+		text-align:center; 
+		line-height:25px; 
+		margin: 0 auto ; 
+	}
+
+	#exampleModalCenterTitle {
+		margin: 0 auto !important; 
+		text-align:center !important; 
+		font-size: 1.25rem !important;
+	}
+
+	/*#infoblue { width:880px; height:1250px;float:left; padding-left:10px; background-image:url(imagenes/productos/fondoblue.jpg); background-repeat:no-repeat;}*/
+
+	#ncss h1 { font-family:Arial, Helvetica, sans-serif;
+		font-size:18px;
+		color:#2a94cf;
+		padding:5px 0px 10px 0px;
+		margin:2px 0px 0px 10px;
+	}
+
+	#ncss h2 { 
+		font-family:Arial, Helvetica, sans-serif;
+		color:#2a94cf; font-size:16px; 
+		margin-top:5px;
+	} 
+
+	#ncss h3 { 
+		font-family:Arial, Helvetica, sans-serif;
+		color:#666; font-size:15px;
+	} 
+
+	#ncss h4 { 
+		font-family:Arial, Helvetica, sans-serif;
+		color:#999; 
+		font-size:15px;
+		padding-left:20px;
+	} 
+
+	#ncss h5 { 
+		font-family:Arial, Helvetica, sans-serif;
+		color:#999; 
+		font-size:15px;
+		margin-left:50px; 
+	}
+
+	#ncss h6 { font-size:10px; margin-left:20px;}
+	#ncss li { margin-left:30px;}
+
+
+	/*#textoplanoabc { float:left; text-align:justify; margin-top:10px; line-height:20px; }*/
+
+	/*#textorecetas { float:left; width:640px; text-align:justify; padding-right:10px; line-height:20px;}*/
+
+	/*#fotorecetas { float:left; width:200px;}*/
+
+	/*#textocontacto1, #textocontacto2 { */
+		/*float:left; width:880px; */
+		/*line-height:20px; }*/
+
+		/*#textocontacto2 { padding-top:20px;}*/
+
+/*a { text-decoration:none; color:#2a94cf;} 
+a:hover { text-decoration:underline; color:#2a94cf;}
+a:visited {  text-decoration:none; color:#2a94cf;}
+
+#formulario { float:left; width:800px; height:320px; padding:10px 0px 10px 10px;}
+
+#galeria  { float:left; width:880px; height:350px; }*/
+
+#ncss a.dropdown-item { box-sizing: border-box; }
+
+.dropdown { cursor: pointer; }
+
+div.card-body.fliaproductosDescrip p  { 
+	color: #666 !important ; 
+	font-size: 14px !important ;
+
+}
+
+div.card-body {
+	padding: 0.5rem !important;
+	/*border: solid 1px #2a94cf;*/
+}
+
+button.btn-flat {
+	border-radius: 0;
+	width: 100%;
+}
+
+#brevedescripCC .btn-primary {
+	background-color:#2a94cf !important;
+}

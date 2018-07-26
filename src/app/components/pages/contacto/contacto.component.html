@@ -1,0 +1,49 @@
+<div id="info">
+<div id="textocontacto1">
+<h1>CONTACTO</h1>
+  <p>Para recibir más información podés comunicarte con nosotros vía mail a: <a href="mailto:nutentar@nutentar.com">nutentar@nutentar.com </a> </p>
+  <p>ó completa el siguiente formulario: </p>
+</div>
+  
+  <div id="formulario">
+       <form action="enviar.php" method="post" enctype="multipart/form-data">
+<table width="450" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+    <td width="174"><p>Nombre y Apellido:</p></td>
+    <td width="212"><label for="nombre y apellido"></label>
+      <input name="nombre y apellido" type="text" id="nombre y apellido" size="30" maxlength="30" /></td>
+  </tr>
+  <tr>
+    <td>Teléfono:</td>
+    <td><label for="telefono"></label>
+      <input name="telefono" type="text" id="telefono" onblur="MM_validateForm('nombre y apellido','','NisNum','telefono','','RisNum');return document.MM_returnValue" size="30" maxlength="30" /></td>
+  </tr>
+  <tr>
+    <td>Email:</td>
+    <td><label for="email"></label>
+      <input name="email" type="text" id="email" onblur="MM_validateForm('email','','RisEmail');return document.MM_returnValue" size="30" /></td>
+  </tr>
+  <tr>
+   
+    </tr>
+  <tr>
+    <td valign="top">Comentarios:</td>
+    <td colspan="3"><label for="comentarios"></label>
+      <textarea name="comentarios" id="comentarios" cols="60" rows="5"></textarea></td>
+    </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td><input type="submit" name="enviar" id="enviar" value="Enviar" /><input type="reset" name="borrar" id="borrar" value="Borrar" /></td>
+   
+    <td width="4"><br /></td>
+  </tr>
+      </table>
+        
+        
+      </form>
+  
+  
+  
+  </div>
+ 
+</div>

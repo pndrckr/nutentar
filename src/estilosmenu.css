@@ -1,0 +1,138 @@
+@charset "UTF-8";
+/* CSS Document */
+
+* {margin:0px; padding:0px;}
+
+/*style de las botoneras*/
+
+
+#botonera { 
+	float:left; 
+	width:200px; 
+	/*height:700px;*/
+}
+
+.lista1 a { float:left; width:190px; height:28px; background-image:url(imagenes/off.jpg); background-repeat:no-repeat; padding-top:10px; padding-left:10px; color:#2a94cf; font-size:15px;}
+
+.lista1 a:hover { float:left; width:190px; height:28px; background-image:url(imagenes/on.jpg); background-repeat:no-repeat; padding-top:10px; padding-left:10px; color:#2a94cf; font-weight:bold; font-size:15px}
+
+.lista1over a { float:left; width:190px; height:28px; background-image:url(imagenes/on.jpg); background-repeat:no-repeat; padding-top:10px; padding-left:10px; color:#2a94cf; font-weight:bold; font-size:15px}
+
+
+.lista2 a { float:left; width:190px; height:28px; background-image:url(imagenes/formmodoff.jpg); background-repeat:no-repeat; padding-top:10px; padding-left:20px; color:#FFF;}
+
+.lista2 a:hover { float:left; width:190px; height:28px; background-image:url(imagenes/formmodon.jpg); background-repeat:no-repeat; padding-top:10px; padding-left:20px; color:#FFF; font-weight:bold;}
+
+.lista2over a { float:left; width:190px; height:28px; background-image:url(imagenes/formmodon.jpg); background-repeat:no-repeat; padding-top:10px; padding-left:20px; color:#FFF; font-weight:bold;}
+
+
+.titularalimentacion { float:left; width:180px; height:28px; background-image:url(imagenes/alimentacion.jpg); background-repeat:no-repeat; padding-top:10px; padding-left:25px; color:#FFF;}
+
+
+#sustentaneutro a:hover, #dbneutro a:hover, #sustentavainilla a:hover, #dbvainilla a:hover, #fibras a:hover { float:left; width:180px; height:25px; padding-top:15px; padding-left:20px; color:#FFF; font-weight:bold;}
+
+#sustentaneutro a:hover { background-image:url(imagenes/neutroover.png); background-repeat:no-repeat;}
+
+#dbneutro a:hover, #dbneutroover a { background-image:url(imagenes/dbneutroover.png); background-repeat:no-repeat; color:#FFF; font-weight:bold;}
+
+#dbneutro a:hover,{ background-image:url(imagenes/dbneutroover.png); background-repeat:no-repeat; color:#FFF; font-weight:bold;}
+
+#sustentavainilla a:hover { background-image:url(imagenes/vainillaover.png); background-repeat:no-repeat;}
+
+#dbvainilla a:hover { background-image:url(imagenes/dbvainillaover.png); background-repeat:no-repeat;}
+
+#fibras a:hover { background-image:url(imagenes/fibrasover.png); background-repeat:no-repeat;}
+
+
+#espesante #blue #lacto #policarb #dextrosa
+
+
+
+.hablemos { float:left; width:220px;}
+
+
+.hablemos a { width:220px;
+height:30px;
+list-style-type:none;
+float:left;
+text-align:center;
+background-image:url(imagenes/hable.jpg);
+background-repeat:no-repeat;	
+padding-top:15px;
+ color:#2a94cf;}	
+
+.hablemos a:hover { width:220px;
+height:30px; float:left;
+text-align:center; background-image:url(imagenes/hableover.jpg); background-repeat:no-repeat;
+color:#2a94cf;
+font-weight:bold;
+text-decoration:none}
+
+#hablemoson a { float:left; width:220px; height:40px; padding-top:10px;
+font-weight:bold; text-align:center; background-image:url(imagenes/hableover.jpg); background-repeat:no-repeat;
+text-decoration:none; }
+
+
+
+/*productos por producto */
+
+
+.sustentaneutro a { float:left; width:170px; height:28px; background-image:url(imagenes/productooff.jpg); background-repeat:no-repeat; padding-top:10px; padding-left:40px; color:#2a94cf;}
+
+.sustentaneutro a:hover { float:left; width:170px; height:28px; background-image:url(imagenes/sustentaneutro.jpg); background-repeat:no-repeat; padding-top:10px; padding-left:40px; color:#FFF; font-weight:bold;}
+.sustentaneutroover a { float:left; width:170px; height:28px; background-image:url(imagenes/sustentaneutro.jpg); background-repeat:no-repeat; padding-top:10px; padding-left:40px; color:#FFF; font-weight:bold;}
+
+.dbneutro a { float:left; width:170px; height:28px; background-image:url(imagenes/productooff.jpg); background-repeat:no-repeat; padding-top:10px; padding-left:40px; color:#2a94cf;}
+
+.dbneutro a:hover { float:left; width:170px; height:28px; background-image:url(imagenes/dbneutro.jpg); background-repeat:no-repeat; padding-top:10px; padding-left:40px; color:#FFF; font-weight:bold;}
+
+.dbneutroover a { float:left; width:170px; height:28px; background-image:url(imagenes/dbneutro.jpg); background-repeat:no-repeat; padding-top:10px; padding-left:40px; color:#FFF; font-weight:bold;}
+
+.sustentavainilla a { float:left; width:170px; height:28px; background-image:url(imagenes/productooff.jpg); background-repeat:no-repeat; padding-top:10px; padding-left:40px; color:#2a94cf;}
+
+.sustentavainilla a:hover { float:left; width:170px; height:28px; background-image:url(imagenes/sustentavainilla.jpg); background-repeat:no-repeat; padding-top:10px; padding-left:40px; color:#FFF; font-weight:bold;}
+
+.sustentavainillaover a { float:left; width:170px; height:28px; background-image:url(imagenes/sustentavainilla.jpg); background-repeat:no-repeat; padding-top:10px; padding-left:40px; color:#FFF; font-weight:bold;}
+
+
+.dbvainilla a { float:left; width:170px; height:28px; background-image:url(imagenes/productooff.jpg); background-repeat:no-repeat; padding-top:10px; padding-left:40px; color:#2a94cf;}
+
+.dbvainilla a:hover { float:left; width:170px; height:28px; background-image:url(imagenes/dbvainilla.jpg); background-repeat:no-repeat; padding-top:10px; padding-left:40px; color:#FFF; font-weight:bold;}
+
+.dbvainillaover a { float:left; width:170px; height:28px; background-image:url(imagenes/dbvainilla.jpg); background-repeat:no-repeat; padding-top:10px; padding-left:40px; color:#FFF; font-weight:bold;}
+
+.fibras a { float:left; width:170px; height:28px; background-image:url(imagenes/productooff.jpg); background-repeat:no-repeat; padding-top:10px; padding-left:40px; color:#2a94cf;}
+
+.fibras a:hover { float:left; width:170px; height:28px; background-image:url(imagenes/fibras.jpg); background-repeat:no-repeat; padding-top:10px; padding-left:35px; color:#FFF; font-weight:bold;}
+
+.fibrasover a { float:left; width:170px; height:28px; background-image:url(imagenes/fibras.jpg); background-repeat:no-repeat; padding-top:10px; padding-left:35px; color:#FFF; font-weight:bold;}
+
+.espesante a { float:left; width:170px; height:28px; background-image:url(imagenes/productooff.jpg); background-repeat:no-repeat; padding-top:10px; padding-left:40px; color:#2a94cf;}
+
+.espesante a:hover { float:left; width:170px; height:28px; background-image:url(imagenes/espesante.jpg); background-repeat:no-repeat; padding-top:10px; padding-left:40px; color:#FFF; font-weight:bold;}
+
+.espesanteover a { float:left; width:170px; height:28px; background-image:url(imagenes/espesante.jpg); background-repeat:no-repeat; padding-top:10px; padding-left:40px; color:#FFF; font-weight:bold;}
+
+.blue a { float:left; width:170px; height:28px; background-image:url(imagenes/productooff.jpg); background-repeat:no-repeat; padding-top:10px; padding-left:40px; color:#2a94cf;}
+
+.blue a:hover { float:left; width:170px; height:28px; background-image:url(imagenes/blue.jpg); background-repeat:no-repeat; padding-top:10px; padding-left:40px; color:#FFF; font-weight:bold;}
+
+.blueover a { float:left; width:170px; height:28px; background-image:url(imagenes/blue.jpg); background-repeat:no-repeat; padding-top:10px; padding-left:40px; color:#FFF; font-weight:bold;}
+
+.lacto a { float:left; width:170px; height:28px; background-image:url(imagenes/productooff.jpg); background-repeat:no-repeat; padding-top:10px; padding-left:40px; color:#2a94cf;}
+
+.lacto a:hover { float:left; width:170px; height:28px; background-image:url(imagenes/lacto.jpg); background-repeat:no-repeat; padding-top:10px; padding-left:40px; color:#FFF; font-weight:bold;}
+
+.lactoover a { float:left; width:170px; height:28px; background-image:url(imagenes/lacto.jpg); background-repeat:no-repeat; padding-top:10px; padding-left:40px; color:#FFF; font-weight:bold;}
+
+.poli a { float:left; width:170px; height:28px; background-image:url(imagenes/productooff.jpg); background-repeat:no-repeat; padding-top:10px; padding-left:40px; color:#2a94cf;}
+
+.poli a:hover { float:left; width:170px; height:28px; background-image:url(imagenes/policarb.jpg); background-repeat:no-repeat; padding-top:10px; padding-left:40px; color:#FFF; font-weight:bold;}
+
+.poliover a { float:left; width:170px; height:28px; background-image:url(imagenes/policarb.jpg); background-repeat:no-repeat; padding-top:10px; padding-left:40px; color:#FFF; font-weight:bold;}
+
+.dextrosa a { float:left; width:170px; height:28px; background-image:url(imagenes/productooff.jpg); background-repeat:no-repeat; padding-top:10px; padding-left:40px; color:#2a94cf;}
+
+.dextrosa a:hover { float:left; width:170px; height:28px; background-image:url(imagenes/dextrosa.jpg); background-repeat:no-repeat; padding-top:10px; padding-left:40px; color:#FFF; font-weight:bold;}
+
+.dextrosaover a { float:left; width:170px; height:28px; background-image:url(imagenes/dextrosa.jpg); background-repeat:no-repeat; padding-top:10px; padding-left:40px; color:#FFF; font-weight:bold;}
